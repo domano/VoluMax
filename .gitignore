@@ -1,0 +1,47 @@
+# Xcode
+*.xcodeproj/
+project.xcworkspace/
+xcuserdata/
+*.xcuserdatad/
+*.xcschememanagement/
+*.xcscheme
+
+# Swift Package Manager
+/.build/
+/Packages/
+*.resolved
+
+# Cocoapods
+/Pods/
+
+# Carthage
+/Carthage/
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+# Operating System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary Files
+*.swp
+*~
+*.bak
+*.tmp
+
+# Personal Files (if any - e.g., API keys not meant for repo)
+# .env
+# secrets.json
+
+# Build artifacts
+DerivedData/
+Build/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace 
